@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="bd">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="img/logo.png" type="image/png" rel="shortcut icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BD Group</title>
+    <meta name="description" content="Business development group in South Africa, Learn how we can transform your business.">
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+    <!-- Font Awesome -->
+    <link href="css/all.min.css" rel="stylesheet">
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Angular -->
+    <script src="vendor/angular.min.js"></script>
+    <!-- Angular Routes -->
+    <script src="vendor/angular-route.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/js/all.js"></script>
+</head>
+<body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0&appId=846412696143936&autoLogAppEvents=1" nonce="2SZaPhKL"></script>
+    <app-nav></app-nav>
+    <app-carousel></app-carousel>
+    <!-- view router outlet -->
+    <div ng-view></div>
+    <app-footer></app-footer>
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary back-to-top"><i class="fa fa-angle-up"></i></a>
+    <!-- modules -->
+    <script src="modules.js"></script>
+    <!-- config -->
+    <script src="config.js"></script>
+    <!-- routing -->
+    <script src="routes/navigation/nav.route.js"></script>
+    <!-- JavaScript Libraries -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/5db1f93178ab74187a5b66df/default';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+</body>
+</html>
